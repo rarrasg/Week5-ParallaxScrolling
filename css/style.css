@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment:fixed;
+    background-image: url(../img/image1.jpeg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image_link a {
+    background-color: #7e8d887c;
+    border: 2px solid gray;
+    color: #662e1d;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #a07264;
+    color: rgb(255, 209, 149);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.intro-text__textbook h3 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment:fixed;
+    background-image: url(../img/image3.jpeg);
+    background-size: cover;
+    background-position:bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #382205;
+    border: 2px solid rgba(128, 128, 128, 0.39);
+    color: #79706ea2;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1,2);
+}
+
+.quality-text {
+    background-color: #a89332;
+    color: rgb(31, 27, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+.origin-image  {
+    background-attachment: fixed;
+    background-image: url(../img/image2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color: #57331a9a;
+    border: 2px solid #331f12;
+    color: #e9b96b;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.25);
+}
+
+.origin-text {
+    background-color: #c0c24b;
+    color: #42352d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #382205;
+    color: rgb(238, 184, 123);
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(238, 184, 123);
+    text-decoration: none;
+}
+
+.footer ul li :hover {
+    transform: scale(1.5)
+}
